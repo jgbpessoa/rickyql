@@ -21,8 +21,10 @@ export default async function Home() {
         {data.characters?.results?.map((character: any) => (
           <CharacterCard
             key={character.id}
+            id={character.id}
             name={character.name}
             image={character.image}
+            species={character.species}
           />
         ))}
       </div>

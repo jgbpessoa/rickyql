@@ -4,6 +4,7 @@ query getCharacters($page: Int!) {
       id
       name
       image
+      species
     }
   }
 }
